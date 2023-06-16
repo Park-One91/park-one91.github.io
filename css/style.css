@@ -53,6 +53,22 @@ button:focus {
   outline: 1px solid var(--color-accent);
 }
 
+/* Common */
+.section {
+  padding: 4rem;
+  text-align: center;
+}
+
+.title {
+  font-size: 2.5rem;
+  margin: 1rem 0;
+}
+
+.description {
+  font-size: 1.5rem;
+  margin: 0.5rem 0;
+}
+
 /* Header */
 .header {
   background-color: black;
@@ -143,9 +159,8 @@ button:focus {
 }
 
 .home__contact:hover {
-    background-color: transparent;
-    /* border로 지정하면 테두리가 생기는 만큼 컨텐츠가 밀려나게 된다 */
-    outline: 2px solid var(--color-accent);
-    color: var(--color-text);
-
+  background-color: transparent;
+  /* border로 지정하면 테두리가 생기는 만큼 컨텐츠가 밀려나게 된다 */
+  outline: 2px solid var(--color-accent);
+  color: var(--color-text);
 }
