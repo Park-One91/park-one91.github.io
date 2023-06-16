@@ -100,3 +100,52 @@ button:focus {
   border: 1px solid var(--color-accent);
   border-radius: 4px;
 }
+
+/* Home */
+#home {
+  background-color: var(--color-promary);
+  color: var(--color-text);
+  padding: 5rem 1rem;
+  padding-top: 7rem;
+  text-align: center;
+}
+
+.home__avatar {
+  width: 250px;
+  height: 250px;
+  /* 이미지 원래 비율 유지 */
+  object-fit: cover;
+  border: 3px solid var(--color-accent);
+  border-radius: 100%;
+}
+
+.home__title {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.home__title__strong {
+  color: var(--color-accent);
+}
+
+.home__description {
+  font-size: 1.3rem;
+}
+
+.home__contact {
+  display: inline-block;
+  background-color: var(--color-accent);
+  color: var(--color-black);
+  margin: 2rem;
+  padding: 0.5rem 1rem;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.home__contact:hover {
+    background-color: transparent;
+    /* border로 지정하면 테두리가 생기는 만큼 컨텐츠가 밀려나게 된다 */
+    outline: 2px solid var(--color-accent);
+    color: var(--color-text);
+
+}
