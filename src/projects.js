@@ -34,3 +34,4 @@ function filtetProjects(filter) {
     projectsContainer.classList.remove("anim-out");
   }, 250);
 }
+
