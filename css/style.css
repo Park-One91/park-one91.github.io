@@ -77,6 +77,10 @@ button:focus {
   outline: 1px solid transparent;
 }
 
+strong {
+  color: rgb(182, 97, 97);
+}
+
 /* Common */
 .section {
   padding: 4rem;
@@ -502,6 +506,7 @@ button:focus {
   color: var(--color-accent);
   font-weight: bold;
   filter: brightness(70%);
+  cursor: default;
 }
 
 /* Arrow up */
